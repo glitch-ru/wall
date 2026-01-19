@@ -10,7 +10,7 @@ n += 1
 img = Image.new("RGB", (W, H), "black")
 draw = ImageDraw.Draw(img)
 
-font = ImageFont.truetype("font/Barsilliago.ttf", 600)
+font = ImageFont.truetype("Barsilliago.ttf", 600)
 text = str(n)
 
 bbox = draw.textbbox((0, 0), text, font=font)
